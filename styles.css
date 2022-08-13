@@ -28,14 +28,14 @@ header {
   justify-content: space-between;
 }
 .sec1 p:first-child {
-  font-size: 0.8rem;
-  padding: 0 0 0.75rem 7rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
-.sec1 p:nth-child(2) {
-  font-size: 1.5rem;
-  font-weight: bolder;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 2rem;
+.sec1 p:last-child {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 .sec1 {
   margin-top: 2rem;
@@ -51,6 +51,7 @@ header {
 .sec2 p {
   display: flex;
   flex-direction: column;
+  margin-bottom: 4rem;
 }
 .sec2 img {
   height: 15.6rem;
@@ -60,29 +61,34 @@ header {
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.5rem;
+  margin-bottom: 2rem;
 }
 .sec2 p:last-child {
   font-weight: 700;
   font-size: 1.5rem;
+  line-height: 2rem;
 }
 .sec3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 2rem;
-  margin-left: -2rem;
+  margin-left: -0.5rem;
 }
 .sec3 p:first-child {
   font-size: 0.7rem;
   margin-top: 0.3rem;
 }
 .sec3 p:last-child {
-  font-weight: bold;
-  font-size: 0.8rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
   margin-top: 0.5rem;
 }
-.sec4 {
+.form {
   gap: 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
 }
 .head {
   display: flex;
@@ -92,14 +98,62 @@ header {
   font-size: 0.8rem;
 }
 .lorem {
-  font-size: 0.8rem;
+  font-size: 1.125rem;
   color: rgba(0, 0, 0, 0.4);
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin-bottom: 2rem;
+  flex-grow: 1;
 }
+
 .gypsy p:last-child {
-  font-size: 0.8rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5rem;
   color: rgba(0, 0, 0, 0.4);
 }
 .gypsy p:first-child {
   font-size: 1.5rem;
-  font-weight: ;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+.sec4 {
+  margin: 3rem auto;
+}
+.div1 {
+  display: flex;
+}
+.div1 p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+.div1 img {
+  height: 0.8rem;
+  width: 0.8rem;
+}
+footer p {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+footer {
+  margin: 5rem;
+}
+.p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p1 p:nth-child(2) {
+  text-decoration-line: underline;
+}
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.gypsy {
+  margin-bottom: 2rem;
 }
